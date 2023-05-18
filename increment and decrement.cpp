@@ -1,4 +1,7 @@
-//This code is to work with the increment and decrement operator
+/*
+This code is to work with the increment and decrement operator
+Comment out the required code snippet to execute
+ */
 
 
 #include<iostream>
