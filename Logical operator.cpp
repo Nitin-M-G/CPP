@@ -24,11 +24,18 @@ int main()
 
     // outside_bounds=(num>upper);
 
-    // cout<<" The number "<<num<<" is outside the upper limit : "<<outside_bounds;
+    // cout<<" The number "<<num<<" is outside the upper limit : "<<outside_bounds<<endl;
 
-    bool below_bounds{false};
-    below_bounds=(num<lower);
-    cout<<" The number "<<num<<" is below the bounds "<<below_bounds;
+    // bool below_bounds{false};
+    // below_bounds=(num<lower);
+    // cout<<" The number "<<num<<" is below the bounds "<<below_bounds<<endl;
+
+    //checking the outside bounds for num 
+
+    bool out_of_bound{false};
+    out_of_bound=(num<lower || num>upper);
+    cout<<" The number does not lie in the range of "<<lower<<" and "<<upper<<" : "<<out_of_bound<<endl;
+
 
 
    return 0;
