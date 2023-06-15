@@ -6,7 +6,7 @@ int main()
 {
     enum Direction{left,right,up,down};
 
-    Direction heading{left};
+    Direction heading{right};
 
     switch(heading)
     {
