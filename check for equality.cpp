@@ -26,5 +26,5 @@ int main()
     cout<<" Comparision result (equals) :"<<equal_result<<endl;
     cout<<" Comparision result (not equals) :"<<not_equal_result<<endl;
 
-
+return 0;
 }
