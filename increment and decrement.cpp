@@ -17,15 +17,15 @@ int main()
     //Post-increment is demonstrated
     cout<<a<<endl;
     result=a++;
-    cout<<result<<endl;    
-    cout<<a<<endl;
+    cout<<"This for the post increment "<<result<<endl;    
+    cout<<endl<<a<<endl;
 
 
     // //Pre-increment is demonstrated 
     cout<<a<<endl;
-    result=++a;
-    cout<<result<<endl;    
-    cout<<a<<endl;
+   result=++a;
+    cout<<"This is for pre increment "<<result<<endl;    
+    cout<<endl<<a<<endl;
 
 
      cout<<endl<<"The decrement part is demonstrated here "<<endl;
