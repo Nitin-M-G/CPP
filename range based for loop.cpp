@@ -10,7 +10,7 @@ int main()
 {
    int scores[]{10,20,30};
 
-   for(auto score:scores)
+   for(auto score:scores)  //range based loop implementation 
    {
     cout<<score<<endl;
    }
