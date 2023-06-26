@@ -1,3 +1,5 @@
+//This code mainly deals with the handling of arrays in functions , with their calling and execution.
+
 #include<iostream>
 
 
